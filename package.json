@@ -25,7 +25,15 @@
 		"mcp",
 		"model-context-protocol",
 		"jinaai",
-		"reader"
+		"reader",
+		"web-content",
+		"documentation",
+		"content-extraction",
+		"text-extraction",
+		"llm",
+		"ai",
+		"web-scraping",
+		"content-parser"
 	],
 	"author": "Scott Spence",
 	"license": "MIT",
