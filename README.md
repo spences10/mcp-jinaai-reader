@@ -5,6 +5,10 @@ API with LLMs. This server provides efficient and comprehensive web
 content extraction capabilities, optimized for documentation and web
 content analysis.
 
+<a href="https://glama.ai/mcp/servers/a75afsx9cx">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/a75afsx9cx/badge" />
+</a>
+
 ## Features
 
 - 📚 Advanced web content extraction through Jina.ai Reader API
