@@ -1,0 +1,48 @@
+{
+	"name": "mcp-jinaai-reader",
+	"version": "0.0.1",
+	"description": "MCP server for JinaAI reader",
+	"type": "module",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"bin": {
+		"mcp-jinaai-reader": "./dist/index.js"
+	},
+	"files": [
+		"dist",
+		"README.md",
+		"LICENSE"
+	],
+	"scripts": {
+		"build": "tsc && chmod +x dist/index.js",
+		"start": "node dist/index.js",
+		"dev": "npx @modelcontextprotocol/inspector dist/index.js",
+		"changeset": "changeset",
+		"version": "changeset version",
+		"release": "pnpm run build && changeset publish"
+	},
+	"keywords": [
+		"mcp",
+		"model-context-protocol",
+		"jinaai",
+		"reader"
+	],
+	"author": "Scott Spence",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/spences10/mcp-jinaai-reader.git"
+	},
+	"bugs": {
+		"url": "https://github.com/spences10/mcp-jinaai-reader/issues"
+	},
+	"homepage": "https://github.com/spences10/mcp-jinaai-reader#readme",
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "1.1.1"
+	},
+	"devDependencies": {
+		"@changesets/cli": "^2.27.11",
+		"@types/node": "^22.10.7",
+		"typescript": "^5.7.3"
+	}
+}
