@@ -1,5 +1,11 @@
 # mcp-jinaai-reader
 
+## 0.0.4
+
+### Patch Changes
+
+- fix: update README.md for mcp-jinaai-reader configuration
+
 ## 0.0.3
 
 ### Patch Changes
