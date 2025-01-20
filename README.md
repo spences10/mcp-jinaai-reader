@@ -32,7 +32,7 @@ Add this to your Cline MCP settings:
 	"mcpServers": {
 		"jinaai-reader": {
 			"command": "node",
-			"args": ["/path/to/mcp-jinaai-reader/dist/index.js"],
+			"args": ["-y", "mcp-jinaai-reader"],
 			"env": {
 				"JINAAI_API_KEY": "your-jinaai-api-key"
 			}
@@ -53,7 +53,7 @@ For WSL environments, add this to your Claude Desktop configuration:
 			"args": [
 				"bash",
 				"-c",
-				"JINAAI_API_KEY=your-jinaai-api-key node /path/to/mcp-jinaai-reader/dist/index.js"
+				"JINAAI_API_KEY=your-jinaai-api-key npx mcp-jinaai-reader"
 			]
 		}
 	}
