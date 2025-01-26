@@ -1,5 +1,7 @@
 # mcp-jinaai-reader
 
+[![smithery badge](https://smithery.ai/badge/@spences10/mcp-jinaai-reader)](https://smithery.ai/server/@spences10/mcp-jinaai-reader)
+
 A Model Context Protocol (MCP) server for integrating Jina.ai's Reader
 API with LLMs. This server provides efficient and comprehensive web
 content extraction capabilities, optimized for documentation and web
@@ -39,6 +41,14 @@ Add this to your Cline MCP settings:
 		}
 	}
 }
+```
+
+### Installing via Smithery
+
+To install mcp-jinaai-reader for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@spences10/mcp-jinaai-reader):
+
+```bash
+npx -y @smithery/cli install @spences10/mcp-jinaai-reader --client claude
 ```
 
 ### Claude Desktop with WSL Configuration
